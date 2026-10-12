@@ -11,7 +11,7 @@ print("Initializing Live AI Demonstration...")
 env = parallel_env(
     net_file='my_grid.net.xml',
     route_file='my_routes.rou.xml',
-    use_gui=True, # <--- The Magic Switch
+    use_gui=True,
     num_seconds=3600,
 )
 

@@ -39,6 +39,7 @@ class ScalabilityDashboard(ctk.CTk):
         self.add_run_button("3x3 Grid", "grid3x3.net.xml", 8814)
         self.add_run_button("4x4 Grid", "grid4x4.net.xml", 8816)
         self.add_run_button("5x5 Grid", "grid5x5.net.xml", 8815)
+        self.add_run_button("Kottayam City", "kottayam.net.xml", 8817)
 
     def add_run_button(self, name, net_file, port):
         btn = ctk.CTkButton(self.btn_frame, text=f"Run {name}", 
