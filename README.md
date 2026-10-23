@@ -71,4 +71,4 @@ python multi\_layout\_dashboard.py
 To train the neural network on a specific grid configuration, execute the training script with the target map and output paths:  
 python Train\_Sumo.py \--net grid4x4.net.xml \--save\_path model\_4x4.pth
 
-*Developed as a Master of Science in Artificial Intelligence Mini-Project.*
+*Developed as a Master of Science in Artificial Intelligence Mini-Project by Athul Anilkumar and Adithya Jayaram*
